@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-bottom: 90px;
+}
+
+.navbar {
+    background-color: #306150;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+.navbar-left {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+    float: left;
+    border-right: 3px double #039461;
+}
+.navbar-left img {
+    width: 80px;
+    margin: 10px;
+}
+.navbar-left h2 {
+    margin: auto;
+    font-size: larger;
+}
+
+.navbar-right {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    float: right;
+    margin: auto;
+}
+.navbar-right a {
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+}
+.navbar-right a:hover {
+    border-bottom: 1px solid #17835D;
+}
+
+@media (max-width: 798px) {
+    
+    .game {
+      width: 100px;
+}
+    .game img {
+        width: 100px;
+        height: 120px;
+}
+}
+
+@media (max-width: 635px) {
+    .main-games {  
+      gap: 40px 90px;
+    }
+}
+
+
+@media (max-width: 510px) {
+    .main-games {  
+      gap: 20px 50px;
+    }
+    .navbar-right a {
+        font-size: medium;
+    }
+    .navbar-left h2 {
+        font-size: medium;
+    }
+    .navbar-left img {
+        width: 40px;
+        margin: 10px;
+    }
+}
+
+@media (max-width: 427px) {
+    .main-games {  
+      gap: 10px 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-right a {
+        font-size: small;
+    }
+}
+
+@media (max-width: 354px) {
+    
+    .game {
+      width: 80px;
+}
+    .game img {
+        width: 80px;
+        height: 120px;
+}
+    .game p {
+        font-size: small;
+    }
+}
+
+@media (max-width: 328px) {
+    .navbar-left h2 {
+        font-size: small;
+    }
+    .navbar-left {
+        width: 33%;
+    }
+    .navbar-right {
+        width: 60%;
+    }
+}
